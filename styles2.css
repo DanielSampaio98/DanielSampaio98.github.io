@@ -1,0 +1,62 @@
+/* ... Seu CSS existente ... */
+
+/* Estilos para telas menores que 768px (tablets e celulares) */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px; /* Reduz o padding do cabeçalho */
+    }
+
+    .logo {
+        position: relative; /* Altera a posição da logo */
+        top: 0; /* Reseta a posição da logo */
+        left: 0; /* Reseta a posição da logo */
+        margin-bottom: 10px; /* Adiciona espaçamento abaixo do logo */
+    }
+
+    .logo img {
+        max-width: 70px; /* Reduz o tamanho da logo para telas menores */
+    }
+
+    nav p {
+        display: block;
+        margin: 5px 0; /* Adiciona espaçamento entre os links */
+    }
+
+    .social-icons {
+        margin-top: 15px; /* Ajusta o espaçamento dos ícones de redes sociais */
+    }
+
+    .social-icons a {
+        margin-right: 8px; /* Reduz o espaçamento entre os ícones */
+    }
+
+    .social-icons img {
+        width: 25px; /* Reduz o tamanho dos ícones de redes sociais */
+    }
+
+    footer {
+        position: relative; /* Altera a posição do rodapé */
+        width: auto; /* Reseta a largura do rodapé */
+        text-align: center; /* Centraliza o texto do rodapé */
+        padding: 10px; /* Adiciona um espaçamento interno no rodapé */
+    }
+}
+
+/* Estilos para telas menores que 480px (smartphones) */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 8px; /* Reduz ainda mais o padding do cabeçalho */
+    }
+
+    .logo img {
+        max-width: 50px; /* Reduz ainda mais o tamanho da logo */
+    }
+
+    nav p a {
+        font-size: 14px; /* Reduz o tamanho da fonte dos links de navegação */
+    }
+
+    .social-icons img {
+        width: 20px; /* Reduz ainda mais o tamanho dos ícones de redes sociais */
+    }
+}

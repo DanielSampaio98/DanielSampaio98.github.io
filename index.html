@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Centralizado</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <script src="main.js" defer></script>
+    <style>
+        /* Estilos para a seção de Contato */
+        #contact {
+            padding: 20px;
+            text-align: center;
+            color: #333; /* Altere conforme necessário */
+        }
+
+        .contact-form {
+            margin-bottom: 40px; /* Espaçamento abaixo do formulário */
+        }
+
+        .contact-form h3 {
+            margin-bottom: 20px; /* Espaçamento abaixo do título */
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            width: 300px; /* Ajuste a largura conforme desejado */
+        }
+
+        .contact-form button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 150px; /* Ajuste a largura conforme desejado */
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilos para os ícones das redes sociais */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin-right: 10px; /* Espaçamento entre os ícones */
+        }
+
+        .social-icons img {
+            width: 30px; /* Ajuste o tamanho dos ícones conforme desejado */
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logomarca/Systems and technology programming company logo.png" alt="Logo do Site">
+        </div>
+        <h1>Daniel Sampaio</h1>
+        <nav>
+            <p><a href="#home" id="link-home">Inicio</a></p>
+            <p><a href="#gallery" id="link-gallery">Projetos</a></p>
+            <p><a href="#services" id="link-services">Sobre mim</a></p>
+            <p><a href="#contact" id="link-contact">Contato</a></p>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Tela Inicial</h2>
+            <p>Conteúdo da tela inicial</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Projetos</h2>
+            <div class="project-icons">
+                <!-- HTML -->
+                <div class="tech-item">
+                    <img src="icones de tecnologias/html-5.png" alt="HTML">
+                </div>
+                <!-- CSS -->
+                <div class="tech-item">
+                    <img src="icones de tecnologias/css-3.png" alt="CSS">
+                </div>
+                <!-- JavaScript -->
+                <div class="tech-item">
+                    <img src="icones de tecnologias/script-java.png" alt="JavaScript">
+                </div>
+                <!-- Python -->
+                <div class="tech-item">
+                    <img src="icones de tecnologias/python.png" alt="Python">
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Sobre mim</h2>
+            <div class="bio-container">
+                <div class="bio-text">
+                    <p>Olá! Sou Daniel, um apaixonado pelos intricados caminhos da tecnologia, com 25 anos e raízes na linda Natal, RN. Sou um estudante de Desenvolvimento de Sistemas, imerso na jornada emocionante de explorar e desvendar os segredos desse vasto universo digital.
+
+                        Meu fascínio por construir soluções inovadoras e meu comprometimento em mergulhar fundo no mundo do código têm moldado minha jornada. Cada linha de código é uma oportunidade para mim, uma chance de criar, aprimorar e, acima de tudo, aprender.
+                        
+                        Entre linhas de código e projetos, descubro a beleza da resolução de problemas e a arte de transformar ideias em realidade. A cada desafio, enxergo uma oportunidade para crescer, expandir meus horizontes e conectar-me com pessoas incríveis que compartilham a mesma paixão.
+                        
+                        Quando não estou imerso no mundo digital, encontro inspiração na natureza exuberante de Natal, absorvendo sua energia única para renovar minha criatividade.
+                        
+                        Estou aqui para deixar minha marca no mundo da tecnologia, contribuir com soluções inovadoras e fazer parte de uma comunidade que impulsiona a evolução constante. Junte-se a mim nesta jornada fascinante!".</p>
+                </div>
+                <div class="bio-image">
+                    <img src="imagemPerfil/80041975_846271535829300_3605338501953880064_n.jpg" alt="Sua foto">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <div class="contact-form">
+                <h3>Entre em Contato</h3>
+                <form id="contactForm" class="contact-box">
+                    <input type="email" placeholder="Seu E-mail" required>
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="number" placeholder="Sua Idade" required>
+                    <input type="text" placeholder="Sua Região" required>
+                    <textarea placeholder="Descrição do Projeto que Busca Criar"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/danielsampaio.dev/" target="_blank"><img src="icones redessociais/instagram.png" alt="Instagram"></a>
+                <a href="https://facebook.com/seu_perfil" target="_blank"><img src="icones redessociais/facebook.png" alt="Facebook"></a>
+                <a href="https://wa.me/5584998454402?text=Seja+Bem+Vindo" target="_blank"><img src="icones redessociais/whatsapp.png" alt="WhatsApp"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; danielsampaio.dev</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function hideAllSections() {
+                const sections = document.querySelectorAll('main section');
+                sections.forEach(section => {
+                    section.style.display = 'none';
+                });
+            }
+
+            function showSection(sectionId) {
+                hideAllSections();
+                const section = document.querySelector(sectionId);
+                if (section) {
+                    section.style.display = 'block';
+                }
+            }
+
+            document.getElementById('link-home').addEventListener('click', function (e) {
+                e.preventDefault();
+                showSection('#home');
+            });
+
+            document.getElementById('link-gallery').addEventListener('click', function (e) {
+                e.preventDefault();
+                showSection('#gallery');
+            });
+
+            document.getElementById('link-services').addEventListener('click', function (e) {
+                e.preventDefault();
+                showSection('#services');
+            });
+
+            document.getElementById('link-contact').addEventListener('click', function (e) {
+                e.preventDefault();
+                showSection('#contact');
+            });
+
+            showSection('#home');
+        });
+    </script>
+</body>
+
+</html>
